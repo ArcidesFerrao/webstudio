@@ -5,7 +5,7 @@ import { Services } from "../components/Services";
 
 export default function HomePage() {
   return (
-    <main>
+    <main className="homepage flex flex-col justify-between items-center ">
       <Hero />
       <Services />
       <About />
