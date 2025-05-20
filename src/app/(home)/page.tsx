@@ -1,9 +1,8 @@
 import { Hero } from "../components/Hero";
 import { About } from "../components/About";
-// import { Services } from "../components/Services";
+import { Services } from "../components/Services";
 import { Header } from "../components/Header";
-import { ServicesPage } from "../components/ServicesComponent";
-// import {Footer} from '../components/Footer';
+// import { ServicesPage } from "../components/ServicesComponent";
 
 export default function HomePage() {
   return (
@@ -11,10 +10,9 @@ export default function HomePage() {
       <Header />
 
       <Hero />
-      <ServicesPage />
-      {/* <Services /> */}
+      {/* <ServicesPage /> */}
+      <Services />
       <About />
-      {/* <Footer /> */}
     </main>
   );
 }
