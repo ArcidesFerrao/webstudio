@@ -16,12 +16,15 @@ const ContactForm = () => {
   return (
     <form
       // onSubmit={handleSubmit}
-      className="flex flex-col gap-4"
+      className="contact-form flex flex-col items-center gap-5"
     >
-      <h2 className="text-xl font-bold mb-2">Contact Me</h2>
+      <h2 className="text-4xl font-bold bg-clip-text ">Contact Me</h2>
 
-      <p className=" mb-8 max-w-md text-center">Ready to build something?</p>
-      <div>
+      <p className="max-w-md text-center">Ready to build something?</p>
+      <p className="max-w-md text-center font-extralight">
+        Let’s talk about your project. I usually respond in less than 24 hours.
+      </p>
+      <div className="flex flex-col gap-5">
         <input
           name="name"
           placeholder="Your Name"

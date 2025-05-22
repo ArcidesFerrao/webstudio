@@ -46,6 +46,10 @@
   color: var(--foreground);
   font-family: Inter, sans-serif;
 } */
+
+*:focus {
+  outline: none;
+}
 body {
   background: var(--bg);
   color: var(--text-color);
@@ -67,7 +71,7 @@ a:hover {
 
 button,
 span {
-  padding: 1rem 2rem;
+  padding: 0.63rem 1.3rem;
   border: 2px solid var(--border-color);
   background-color: var(--bg-color);
   border-radius: 0.4rem;
@@ -78,12 +82,39 @@ button {
 }
 button:hover {
   border-color: var(--text-color);
+  border-radius: 0;
 }
+button:active {
+  border-radius: 0;
+  background-color: var(--text-light);
+  color: var(--bg-color);
+}
+
 nav {
   border: 2px solid var(--border-color);
   background-color: var(--bg-color);
   border-radius: 0.4rem;
 }
+
+textarea {
+  min-height: 200px;
+}
+
+.hero-section span,
+.card,
+button,
+input {
+  transition: all 800ms ease-out;
+}
+.hero-section span:hover,
+.card:hover,
+button:hover,
+textarea:focus,
+input:focus {
+  border-radius: 0 !important;
+  background-color: var(--border-color);
+}
+
 .homepage {
   max-width: 800px;
   width: 800px;
@@ -102,17 +133,17 @@ nav {
   color: var(--text-light);
 }
 
-.hero-section a:active {
-  /* color: var(--primary-color); */
-  border-color: var(--foreground);
-}
 .hero-section span:hover {
   /* cursor: pointer; */
   border-color: var(--text-color);
+  border-radius: 0;
   /* color: var(--bg-color); */
   /* border: 1px solid var(--border-color); */
 }
 
+.services li:hover {
+  border-radius: 0;
+}
 .services li {
   background-color: var(--surface-color);
   border-radius: 0.4rem;
@@ -145,4 +176,13 @@ nav {
 
 .card p {
   font-size: 12px;
+}
+
+.contact-form textarea,
+.contact-form input {
+  width: 360px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0.625rem;
+  font-size: 14px;
 }
