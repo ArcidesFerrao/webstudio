@@ -3,7 +3,7 @@ import Link from "next/link";
 export const Services = () => (
   <section
     id="services"
-    className="services w-full flex flex-col gap-10 items-center justify-between py-5 bg-gradient-to-b from-white-to-gray-50 rounded-xl shadow-m"
+    className="services w-full flex flex-col gap-10 items-center justify-between py-10 rounded-xl shadow-m"
   >
     <h2 className="text-4xl font-bold bg-clip-text ">What I Offer</h2>
     <p className="  max-w-md text-center">
@@ -39,7 +39,11 @@ export const Services = () => (
         <h3 className="text-xl font-semibold mb-2 ">Custom Solutions</h3>
         <p>Dashboards ,APIs & Bespoke Systems</p>
         <div>
-          <h4 className="font-semibold">Contact for quote</h4>
+          <h4>
+            <Link className="font-semibold" href="#contact">
+              Contact for quote
+            </Link>
+          </h4>
           <h4 className="text-xs font-light">Tailored to your needs</h4>
         </div>
       </div>

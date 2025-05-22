@@ -6,7 +6,7 @@ const ContactForm = () => {
       id="contact"
       action="https://formsubmit.co/cidesferrao@gmail.com"
       method="POST"
-      className="contact-form flex flex-col items-center gap-5"
+      className="contact-form flex flex-col items-center gap-5 py-10"
     >
       <h2 className="text-4xl font-bold bg-clip-text ">Contact Me</h2>
 

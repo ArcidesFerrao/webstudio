@@ -4,7 +4,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="projects w-full flex flex-col items-center justify-between py-8 gap-10 rounded-xl shadow-m"
+      className="projects w-full flex flex-col items-center justify-between py-10 gap-10 rounded-xl shadow-m"
     >
       <h2 className="text-4xl font-bold bg-clip-text ">Projects</h2>
       <p className="max-w-md text-center">Some of my most recent projects</p>

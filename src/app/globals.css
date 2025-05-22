@@ -93,6 +93,7 @@ button:active {
   color: var(--bg-color);
 }
 
+footer,
 nav {
   border: 2px solid var(--border-color);
   background-color: var(--bg-color);
@@ -117,6 +118,7 @@ textarea:focus,
 input:focus {
   border-radius: 0 !important;
   background-color: var(--border-color);
+  border-color: var(--bg-color);
 }
 
 img {
@@ -125,6 +127,12 @@ img {
 
 img:hover {
   border-radius: 0;
+}
+
+footer p,
+a {
+  font-weight: 400;
+  font-size: small;
 }
 
 .homepage {

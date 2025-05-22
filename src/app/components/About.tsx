@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const About = () => (
   // <section className="p-8 bg-gray-100 rounded-lg my-8">
-  <section id="about" className="about flex flex-col items-center p-8 gap-5">
+  <section id="about" className="about flex flex-col items-center p-10 gap-5">
     <h2 className="text-4xl font-bold bg-clip-text ">About Me</h2>
     <div className="flex flex-col gap-5">
       <div className="flex gap-5 items-center">
@@ -30,6 +30,7 @@ export const About = () => (
             alt="arcides-ferrao"
             width={240}
             height={240}
+            className="border-8 border-white/90 hover:rotate-3"
           />
         </div>
       </div>
