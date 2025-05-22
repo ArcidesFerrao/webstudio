@@ -5,26 +5,30 @@ export const Projects = () => {
     <section className="projects w-full flex flex-col items-center justify-between py-8 gap-10 rounded-xl shadow-m">
       <h2 className="text-4xl font-bold bg-clip-text ">Projects</h2>
       <p className="max-w-md text-center">Some of my most recent projects</p>
-      <div className="grid grid-cols-1 md:grid-cols-3  w-full max-w-4xl">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-4xl">
+        <div className="max-w-fit justify-self-center ">
           <Image
-            src="/"
+            src="/assets/ousadia.png"
             alt="picture"
             width={200}
             height={270}
             className="rounded-lg hover:shadow-lg transition-shadow"
           />
           <div className="flex flex-col justify-around min-h-24">
-            <h3 className="text-xl font-medium ">Veste Ousadia</h3>
+            <h3 className="text-xl font-medium ">
+              <a href="https://www.vesteousadia.com" target="blank">
+                Veste Ousadia
+              </a>
+            </h3>
             <p className=" ">E-Commerce Platform</p>
             <p className="font-extralight text-sm">
               Design - Frontend - Backend
             </p>
           </div>
         </div>
-        <div className="rounded-lg ">
+        <div className="max-w-fit justify-self-center ">
           <Image
-            src="/"
+            src="/assets/djopa.png"
             alt="picture"
             width={200}
             height={270}
@@ -38,9 +42,9 @@ export const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="rounded-lg  ">
+        <div className="max-w-fit justify-self-center ">
           <Image
-            src="/"
+            src="/assets/clock-timer.png"
             alt="picture"
             width={200}
             height={270}

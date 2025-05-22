@@ -100,6 +100,7 @@ textarea {
   min-height: 200px;
 }
 
+img,
 .hero-section span,
 .card,
 button,
@@ -115,6 +116,13 @@ input:focus {
   background-color: var(--border-color);
 }
 
+img {
+  opacity: 60%;
+}
+
+img:hover {
+  border-radius: 0;
+}
 .homepage {
   max-width: 800px;
   width: 800px;
@@ -185,4 +193,8 @@ input:focus {
   border-radius: 8px;
   padding: 0.625rem;
   font-size: 14px;
+}
+
+.about img {
+  border-radius: 4rem;
 }

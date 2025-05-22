@@ -5,11 +5,11 @@ export const About = () => (
   <section className="about flex flex-col items-center p-8 gap-5">
     <h2 className="text-4xl font-bold bg-clip-text ">About Me</h2>
     <div className="flex flex-col gap-5">
-      <div className="flex gap-5">
+      <div className="flex gap-5 items-center">
         <div className="flex flex-col gap-5">
-          <p>
-            I&apos;m **Arcides Ferrao**, full-stack developer from **Maputo
-            🇲🇿**.
+          <p className="flex gap-1">
+            I&apos;m <b> Arcides Ferrao,</b> full-stack developer from Maputo
+            🇲🇿.
           </p>
           <div className="flex flex-col gap-5">
             <p>I help local brands scale with:</p>
@@ -20,11 +20,16 @@ export const About = () => (
             </ul>
           </div>
           <p>
-            I’m also launching **Innovante Academy** to teach real dev skills.
+            I&apos;m also launching Innovante Academy to teach real dev skills.
           </p>
         </div>
         <div>
-          <Image src="/" alt="picture" width={200} height={200} />
+          <Image
+            src="/assets/profile.png"
+            alt="arcides-ferrao"
+            width={240}
+            height={240}
+          />
         </div>
       </div>
       <div>
