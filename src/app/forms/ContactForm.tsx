@@ -15,6 +15,7 @@ const ContactForm = () => {
 
   return (
     <form
+      id="contact"
       // onSubmit={handleSubmit}
       className="contact-form flex flex-col items-center gap-5"
     >

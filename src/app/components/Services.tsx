@@ -1,5 +1,8 @@
 export const Services = () => (
-  <section className="services w-full flex flex-col gap-10 items-center justify-between py-8 bg-gradient-to-b from-white-to-gray-50 rounded-xl shadow-m">
+  <section
+    id="services"
+    className="services w-full flex flex-col gap-10 items-center justify-between py-5 bg-gradient-to-b from-white-to-gray-50 rounded-xl shadow-m"
+  >
     <h2 className="text-4xl font-bold bg-clip-text ">What I Offer</h2>
     <p className="  max-w-md text-center">
       Tailored digital solutions to grow your business

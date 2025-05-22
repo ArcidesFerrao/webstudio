@@ -50,6 +50,9 @@
 *:focus {
   outline: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: var(--bg);
   color: var(--text-color);
@@ -123,10 +126,12 @@ img {
 img:hover {
   border-radius: 0;
 }
+
 .homepage {
   max-width: 800px;
   width: 800px;
   min-height: 100vh;
+  padding: 5rem 0;
 }
 
 .homepage section {

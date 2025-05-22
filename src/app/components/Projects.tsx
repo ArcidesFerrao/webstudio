@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export const Projects = () => {
   return (
-    <section className="projects w-full flex flex-col items-center justify-between py-8 gap-10 rounded-xl shadow-m">
+    <section
+      id="projects"
+      className="projects w-full flex flex-col items-center justify-between py-8 gap-10 rounded-xl shadow-m"
+    >
       <h2 className="text-4xl font-bold bg-clip-text ">Projects</h2>
       <p className="max-w-md text-center">Some of my most recent projects</p>
       <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-4xl">
