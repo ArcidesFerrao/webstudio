@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Innovante Web Studio 🌐
 
-## Getting Started
+**I build modern websites that make brands stand out.**  
+Clean code, modern design, built fast for real results.
 
-First, run the development server:
+---
+
+## 🚀 Overview
+
+**Innovante Web Studio** is my personal freelance portfolio site. It showcases my web development services, selected projects, and a direct contact form for collaboration inquiries.
+
+Built using modern technologies, this site is focused on **clarity**, **performance**, and **professional design**.
+
+---
+
+## 🧰 Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Fonts**: Inter (via Google Fonts)
+- **Deployment**: Vercel
+- **Forms**: (Next goal: connect to Formspree / EmailJS / Resend)
+
+---
+
+## ✨ Live Preview
+
+> 🚧 Coming soon: [https://innovante.mz](https://innovante.mz)
+
+---
+
+## 🖼️ Key Sections
+
+- **Hero** – Eye-catching headline and quick call-to-actions
+- **Services** – Clear cards outlining what I offer
+- **Projects** – A few of my best and most recent works
+- **About Me** – Short personal bio with my photo
+- **Contact** – Clean and direct form to reach out
+
+---
+
+## 📦 Getting Started
+
+Clone the repo:
+
+```bash
+git clone https://github.com/ArcidesFerrao/webstudio.git
+cd webstudio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✅ To-Do / Improvements
 
-## Learn More
+- Hook up contact form to an email service (e.g. EmailJS or Resend)
+- Add animation (Framer Motion / subtle transitions)
+- Improve mobile responsiveness
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧑‍💻 About the Developer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Arcides Ferrão** – Full-stack developer based in Maputo, Mozambique 🇲🇿
+I build websites, teach code at Innovante Academy, and help local businesses grow online.
 
-## Deploy on Vercel
+Find me on [Twitter](https://www.twitter.com/Arcides_)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📬 Contact
+
+Want to work together?
+Send an email to: cidesferrao@gmail.com
+
+---
+
+## License
+
+MIT
+
+---
+
+## ✅ Next Steps
+
+1. Replace `your-username` and `your-profile` with your actual GitHub and LinkedIn usernames.
+2. Replace the email or domain with your actual contact info and live URL once deployed.
+3. Add a `LICENSE` file (MIT is the most common for portfolio sites).
+4. Commit this README to the root of your project repo.
+
+---
