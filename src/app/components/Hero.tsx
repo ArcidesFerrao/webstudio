@@ -9,10 +9,10 @@ export const Hero = () => (
       </p>
     </div>
     <div className="flex gap-5 justify-center py-5">
-      <a href="/projects" className="btn">
+      <a href="#projects" className="btn">
         <span>View My Work</span>
       </a>
-      <a href="/contact" className="btn btn-outline">
+      <a href="#contact" className="btn btn-outline">
         <span>Get a Website</span>
       </a>
     </div>

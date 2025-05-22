@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Services = () => (
   <section
     id="services"
@@ -42,8 +44,10 @@ export const Services = () => (
         </div>
       </div>
     </div>
-    <button className="font-sm rounded-full hover:shadow-xl transition-all hover:underline">
-      Get a Custom Quote
-    </button>
+    <Link href="#contact">
+      <button className="font-sm rounded-full hover:shadow-xl transition-all hover:underline">
+        Get a Custom Quote
+      </button>
+    </Link>
   </section>
 );

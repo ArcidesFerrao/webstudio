@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const About = () => (
   // <section className="p-8 bg-gray-100 rounded-lg my-8">
@@ -33,7 +34,9 @@ export const About = () => (
         </div>
       </div>
       <div>
-        <button>See more on GitHub</button>
+        <Link href="https://github.com/ArcidesFerrao" target="blank">
+          <span>See more on GitHub</span>
+        </Link>
       </div>
     </div>
   </section>
