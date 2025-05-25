@@ -211,3 +211,62 @@ a {
 .about img {
   border-radius: 4rem;
 }
+
+@media (max-width: 840px) and (min-width: 501px) {
+  .homepage {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 840px) {
+  .card {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .services-container {
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    row-gap: 2.5rem;
+    align-items: center;
+  }
+
+  .projects-container {
+    flex-flow: wrap;
+    row-gap: 2.5rem;
+  }
+
+  .projects-container img {
+    width: 250px;
+  }
+
+  .about-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .button-github {
+    align-self: center;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    display: none;
+  }
+  footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .homepage {
+    max-width: 380px;
+  }
+
+  .projects-container {
+    justify-content: center;
+  }
+}

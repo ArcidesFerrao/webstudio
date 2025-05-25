@@ -6,7 +6,7 @@ export const About = () => (
   <section id="about" className="about flex flex-col items-center p-10 gap-5">
     <h2 className="text-4xl font-bold bg-clip-text ">About Me</h2>
     <div className="flex flex-col gap-5">
-      <div className="flex gap-5 items-center">
+      <div className="about-container flex gap-5 items-center">
         <div className="flex flex-col gap-5">
           <p className="flex gap-1">
             I&apos;m <b> Arcides Ferrao,</b> full-stack developer from Maputo
@@ -34,7 +34,7 @@ export const About = () => (
           />
         </div>
       </div>
-      <div>
+      <div className="button-github h-fit">
         <Link href="https://github.com/ArcidesFerrao" target="blank">
           <span>See more on GitHub</span>
         </Link>

@@ -9,7 +9,7 @@ export const Services = () => (
     <p className="  max-w-md text-center">
       Tailored digital solutions to grow your business
     </p>
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-6 w-full max-w-4xl">
+    <div className="services-container flex justify-between w-full max-w-4xl">
       <div className="card p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center ">
         <h3 className="mb-2">Landing Pages</h3>
         <p>High-converting single page experiences</p>
@@ -35,7 +35,7 @@ export const Services = () => (
           <h4 className="text-xs  ">Starting price</h4>
         </div>
       </div>
-      <div className="card p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow ">
+      <div className="custom-service card p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow ">
         <h3 className="text-xl font-semibold mb-2 ">Custom Solutions</h3>
         <p>Dashboards ,APIs & Bespoke Systems</p>
         <div>

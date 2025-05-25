@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const Footer = () => (
-  <>
+  <section className="w-full">
     <footer className="w-full flex items-center space-x-8 justify-center py-8 my-10">
-      <div>
+      <div className="m-0">
         <Image
           src="/assets/logo-ws3.png"
           width={180}
@@ -23,5 +23,5 @@ export const Footer = () => (
         </div>
       </div>
     </footer>
-  </>
+  </section>
 );
