@@ -212,6 +212,13 @@ a {
   border-radius: 4rem;
 }
 
+.footer-links {
+  background-color: var(--bg);
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
 @media (max-width: 840px) and (min-width: 501px) {
   .homepage {
     max-width: 600px;

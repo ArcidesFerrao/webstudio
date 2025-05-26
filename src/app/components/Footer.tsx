@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export const Footer = () => (
   <section className="w-full">
-    <footer className="w-full flex items-center gap-5 justify-center py-8 my-10">
+    <footer className="w-full flex items-center gap-10 justify-center py-8 my-10">
       <div className="m-0">
         <Image
           src="/assets/logo-ws.png"
-          width={180}
+          width={200}
           height={100}
           alt="web studio logo"
         />
