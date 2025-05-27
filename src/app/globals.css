@@ -234,7 +234,7 @@ a {
   max-width: 300px;
   min-height: 200px;
   background-color: var(--bg-color);
-  padding: 1rem;
+  padding: 1.2rem;
   border-radius: 8px;
   justify-content: space-between;
   border: 1px solid var(--border-color);
