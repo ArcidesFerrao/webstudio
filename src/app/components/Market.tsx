@@ -5,7 +5,7 @@ export const Market = () => {
   return (
     <section className="flex flex-col w-full items-center gap-5 py-20">
       <h2 className="text-4xl font-bold bg-clip-text ">Digital Products</h2>
-      <div className="flex w-full justify-around">
+      <div className="flex w-full gap-4">
         <div className="product-card flex flex-col gap-2">
           <div>
             <h3 className="text-xl font-medium">
@@ -49,6 +49,29 @@ export const Market = () => {
           </div>
           <div className="flex flex-col gap-2">
             <h3 className="text-lg font-bold">MZN 300.00</h3>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div className="product-card flex flex-col gap-2">
+          <div>
+            <h3 className="text-xl font-medium">
+              How to Get Clients as a Beginner Freelancer
+            </h3>
+          </div>
+          <Image
+            src="/assets/Beginner-Freelancer-2.png"
+            alt="contracts template"
+            width={300}
+            height={300}
+          />
+          <div>
+            <p className="font-extralight text-sm">
+              A ready-to-use bundle to help beginner freelancers close deals
+              with confidence.
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <h3 className="text-lg font-bold">MZN 500.00</h3>
             <button>Buy Now</button>
           </div>
         </div>
