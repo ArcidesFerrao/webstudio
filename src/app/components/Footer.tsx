@@ -12,7 +12,7 @@ export const Footer = () => (
           alt="web studio logo"
         />
       </div>
-      <div className="footer-links flex flex-col-reverse h-full gap-1">
+      <div className="footer-links flex flex-col-reverse h-full gap-2">
         <div className="flex gap-1 items-center">
           {/* <p>Email:</p> */}
           <span className="mage--email"></span>
