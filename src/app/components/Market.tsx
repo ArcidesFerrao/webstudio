@@ -3,22 +3,23 @@ import React from "react";
 
 export const Market = () => {
   return (
-    <section className="flex flex-col w-full items-center gap-20 py-20">
+    <section className="market-section flex flex-col w-full items-center gap-20 py-20">
       <h2 className="text-4xl font-bold bg-clip-text ">
         Explore Our Digital Resources
       </h2>
       <div className="flex w-full gap-4">
         <div className="product-card flex flex-col gap-2">
-          <div>
+          <div className="text-center">
             <h3 className="text-xl font-medium">
               Freelancer Contract + Proposal Templates
             </h3>
           </div>
           <Image
+            className="self-center"
             src="/assets/contracts.png"
             alt="contracts template"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
           <div>
             <p className="font-extralight text-sm">
@@ -32,16 +33,17 @@ export const Market = () => {
           </div>
         </div>
         <div className="product-card flex flex-col  gap-2">
-          <div>
+          <div className="text-center">
             <h3 className="text-xl font-medium ">
               Why Next.js is the Future of Web Development
             </h3>
           </div>
           <Image
+            className="self-center"
             src="/assets/nextjs.png"
             alt="nextjs template"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
           <div>
             <p className="font-extralight text-sm">
@@ -55,16 +57,17 @@ export const Market = () => {
           </div>
         </div>
         <div className="product-card flex flex-col gap-2">
-          <div>
+          <div className="text-center">
             <h3 className="text-xl font-medium">
               How to Get Clients as a Beginner Freelancer
             </h3>
           </div>
           <Image
+            className="self-center"
             src="/assets/Beginner-Freelancer-2.png"
             alt="contracts template"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
           <div>
             <p className="font-extralight text-sm">

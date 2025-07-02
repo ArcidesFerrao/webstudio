@@ -215,6 +215,9 @@ footer img {
   height: 54px;
 }
 
+.market-section img {
+  height: 200px;
+}
 .footer-links:hover {
   background-color: var(--border-color);
   border-radius: 0;
