@@ -20,7 +20,7 @@ export const Projects = () => {
           <div className="flex flex-col justify-around min-h-24">
             <h3 className="text-xl font-medium ">
               <a href="https://www.vesteousadia.com" target="blank">
-                Veste Ousadia
+                <h3 className="text-xl font-medium">Veste Ousadia</h3>
               </a>
             </h3>
             <p className=" ">E-Commerce Platform</p>
@@ -54,7 +54,12 @@ export const Projects = () => {
             className="rounded-lg hover:shadow-lg transition-shadow"
           />
           <div className="flex flex-col justify-around min-h-24">
-            <h3 className="text-xl font-medium">Marketplace</h3>
+            <a
+              href="https://digital-marketplace-one.vercel.app/"
+              target="blank"
+            >
+              <h3 className="text-xl font-medium">Marketplace</h3>
+            </a>
             <p className="">Digital Marketplace</p>
             <p className="font-extralight text-sm">Frontend - Backend</p>
           </div>
