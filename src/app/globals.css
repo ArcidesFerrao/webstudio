@@ -123,6 +123,7 @@ input:focus {
 
 img {
   opacity: 60%;
+  height: 290px;
 }
 
 img:hover {
@@ -210,13 +211,30 @@ a {
 
 .about img {
   border-radius: 4rem;
+  height: 240px;
 }
 
+footer img {
+  height: 100px;
+}
+
+.footer-links:hover {
+  background-color: var(--border-color);
+  border-radius: 0;
+}
 .footer-links {
   background-color: var(--bg);
   border: 1px solid var(--border-color);
   padding: 1rem;
   border-radius: 8px;
+  transition: all 1500ms ease-in-out;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 380px;
 }
 
 .product-card button:hover,
@@ -231,7 +249,7 @@ a {
 }
 .product-card {
   transition: all 800ms ease;
-  max-width: 300px;
+  width: 300px;
   min-height: 200px;
   background-color: var(--bg-color);
   padding: 1.2rem;

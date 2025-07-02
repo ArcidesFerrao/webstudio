@@ -3,8 +3,10 @@ import React from "react";
 
 export const Market = () => {
   return (
-    <section className="flex flex-col w-full items-center gap-5 py-20">
-      <h2 className="text-4xl font-bold bg-clip-text ">Digital Products</h2>
+    <section className="flex flex-col w-full items-center gap-20 py-20">
+      <h2 className="text-4xl font-bold bg-clip-text ">
+        Explore Our Digital Resources
+      </h2>
       <div className="flex w-full gap-4">
         <div className="product-card flex flex-col gap-2">
           <div>

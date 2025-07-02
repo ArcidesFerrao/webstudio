@@ -47,16 +47,16 @@ export const Projects = () => {
         </div>
         <div className="project-card max-w-fit justify-self-center ">
           <Image
-            src="/assets/clock-timer.png"
+            src="/assets/digital.png"
             alt="picture"
             width={200}
             height={270}
             className="rounded-lg hover:shadow-lg transition-shadow"
           />
           <div className="flex flex-col justify-around min-h-24">
-            <h3 className="text-xl font-medium">Timer</h3>
-            <p className="">Clock - Timer</p>
-            <p className="font-extralight text-sm">Design - Frontend</p>
+            <h3 className="text-xl font-medium">Marketplace</h3>
+            <p className="">Digital Marketplace</p>
+            <p className="font-extralight text-sm">Frontend - Backend</p>
           </div>
         </div>
       </div>
