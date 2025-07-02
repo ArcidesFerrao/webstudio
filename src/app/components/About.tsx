@@ -35,11 +35,12 @@ export const About = () => (
         </div>
       </div>
       <div className="button-github h-fit">
-        <Link href="https://github.com/ArcidesFerrao" target="blank">
-          <span className="flex items-center justify-center w-fit gap-2">
-            <span className="jam--github"></span>See more on GitHub
-          </span>
-        </Link>
+        <button className="about-button flex items-center justify-center w-fit gap-2">
+          <span className="jam--github"></span>
+          <Link href="https://github.com/ArcidesFerrao" target="blank">
+            See more on GitHub
+          </Link>
+        </button>
       </div>
     </div>
   </section>
