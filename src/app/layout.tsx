@@ -15,7 +15,10 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Web Studio",
-  description: "Innovante Web Studio",
+  description: "Innovante's Web Studio",
+  icons: {
+    icon: [{ url: "/favicon.png" }],
+  },
 };
 
 export default function RootLayout({
