@@ -1,4 +1,4 @@
-# Innovante Web Studio 🌐
+# Evolure Web Studio 🌐
 
 **I build modern websites that make brands stand out.**  
 Clean code, modern design, built fast for real results.
@@ -7,7 +7,7 @@ Clean code, modern design, built fast for real results.
 
 ## 🚀 Overview
 
-**Innovante Web Studio** is my personal freelance portfolio site. It showcases my web development services, selected projects, and a direct contact form for collaboration inquiries.
+**Evolure Web Studio** is my personal freelance portfolio site. It showcases my web development services, selected projects, and a direct contact form for collaboration inquiries.
 
 Built using modern technologies, this site is focused on **clarity**, **performance**, and **professional design**.
 
