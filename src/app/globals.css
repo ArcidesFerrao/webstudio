@@ -230,6 +230,9 @@ footer img {
   transition: all 1500ms ease-in-out;
 }
 
+.project-card img:hover {
+  box-shadow: -3px 2px 20px 1px var(--border-color);
+}
 .project-card {
   display: flex;
   flex-direction: column;

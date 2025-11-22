@@ -31,18 +31,16 @@ export const Projects = () => {
         </div>
         <div className="project-card max-w-fit justify-self-center ">
           <Image
-            src="/assets/djopa.png"
+            src="/assets/repos.png"
             alt="picture"
             width={200}
             height={270}
             className="rounded-lg hover:shadow-lg transition-shadow"
           />
           <div className="flex flex-col justify-around min-h-24">
-            <h3 className="text-xl font-medium ">Djopa</h3>
-            <p className="">Job Seeking Platform</p>
-            <p className="font-extralight text-sm">
-              Design - Frontend - Backend
-            </p>
+            <h3 className="text-xl font-medium ">Most Starred</h3>
+            <p className="">Case Study</p>
+            <p className="font-extralight text-sm">Design - Frontend</p>
           </div>
         </div>
         <div className="project-card max-w-fit justify-self-center ">

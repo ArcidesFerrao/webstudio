@@ -7,7 +7,7 @@ export const Header = () => (
       <Link href="/#hero">Home</Link>
       <Link href="/#services">Services</Link>
       <Link href="/#projects">Projects</Link>
-      <Link href="/market">Products</Link>
+      {/* <Link href="/market">Products</Link> */}
       <Link href="/#contact">Contact</Link>
     </nav>
   </>
