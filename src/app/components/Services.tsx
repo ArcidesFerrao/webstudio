@@ -14,7 +14,7 @@ export const Services = () => (
         <h3 className="mb-2">Landing Pages</h3>
         <p>High-converting single page experiences</p>
         <div>
-          <h4 className="font-medium">5 000,00 MZN</h4>
+          <h4 className="font-medium">10 000,00 MZN</h4>
           <h4 className="text-xs ">Starting price</h4>
         </div>
       </div>
@@ -22,7 +22,7 @@ export const Services = () => (
         <h3 className="mb-2">Full Websites</h3>
         <p>Complete multi-page web presence</p>
         <div>
-          <h4 className="font-medium">10 000,00 MZN</h4>
+          <h4 className="font-medium">15 000,00 MZN</h4>
 
           <h4 className="text-xs  ">Starting price</h4>
         </div>
@@ -31,7 +31,7 @@ export const Services = () => (
         <h3 className="mb-2 ">Online Stores</h3>
         <p>E-commerce ready solutions</p>
         <div>
-          <h4 className="font-medium">15 000,00 MZN</h4>
+          <h4 className="font-medium">20 000,00 MZN</h4>
           <h4 className="text-xs  ">Starting price</h4>
         </div>
       </div>

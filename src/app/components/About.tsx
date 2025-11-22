@@ -38,7 +38,7 @@ export const About = () => (
         <button className="about-button flex items-center justify-center w-fit gap-2">
           <span className="jam--github"></span>
           <Link href="https://github.com/ArcidesFerrao" target="blank">
-            See more on GitHub
+            ...more on GitHub
           </Link>
         </button>
       </div>
