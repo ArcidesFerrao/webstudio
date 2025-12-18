@@ -1,7 +1,7 @@
 import React from "react";
 import { Header } from "../components/Header";
 import { Market } from "../components/Market";
-import { Footer } from "../components/Footer";
+import Footer from "../components/Footer";
 
 export default function MarketPage() {
   return (
