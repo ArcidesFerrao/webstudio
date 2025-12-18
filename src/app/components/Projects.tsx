@@ -1,13 +1,19 @@
+"use client";
 import Image from "next/image";
+import { useLanguage } from "./LanguageContext";
 
 export const Projects = () => {
+  const { t } = useLanguage();
+
   return (
     <section
       id="projects"
       className="projects w-full flex flex-col items-center justify-between py-10 gap-10 rounded-xl shadow-m"
     >
-      <h2 className="text-4xl font-bold bg-clip-text ">Projects</h2>
-      <p className="max-w-md text-center">Some of my most recent projects</p>
+      <h2 className="text-4xl font-bold bg-clip-text ">
+        {t("projects_title")}
+      </h2>
+      <p className="max-w-md text-center">{t("projects_subtitle")}</p>
       <div className="projects-container flex w-full gap-2 justify-between max-w-4xl">
         <div className="project-card max-w-fit justify-self-center ">
           <Image

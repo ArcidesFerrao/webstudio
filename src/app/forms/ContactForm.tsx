@@ -1,6 +1,9 @@
 "use client";
 
-const ContactForm = () => {
+import { useLanguage } from "../components/LanguageContext";
+
+export const ContactForm = () => {
+  const { t } = useLanguage();
   return (
     <form
       id="contact"
@@ -8,26 +11,25 @@ const ContactForm = () => {
       method="POST"
       className="contact-form flex flex-col items-center gap-5 py-10"
     >
-      <h2 className="text-4xl font-bold bg-clip-text ">Contact Me</h2>
+      <h2 className="text-4xl font-bold bg-clip-text ">{t("contact_title")}</h2>
 
-      <p className="max-w-md text-center">Ready to build something?</p>
+      <p className="max-w-md text-center">{t("contact_subtitle")}</p>
       <p className="max-w-md text-center font-extralight">
-        Let’s talk about your project. I usually respond in less than 24 hours.
+        {t("contact_description")}
       </p>
       <div className="flex flex-col gap-5">
-        <input name="name" placeholder="Your Name" required />
-        <input name="email" type="email" placeholder="Your Email" required />
-        <textarea
-          name="message"
-          placeholder="What do you want built?"
+        <input name="name" placeholder={t("contact_name")} required />
+        <input
+          name="email"
+          type="email"
+          placeholder={t("contact_email")}
           required
         />
+        <textarea name="message" placeholder={t("contact_message")} required />
         <button type="submit" className="btn">
-          Send Request
+          {t("contact_button")}
         </button>
       </div>
     </form>
   );
 };
-
-export default ContactForm;

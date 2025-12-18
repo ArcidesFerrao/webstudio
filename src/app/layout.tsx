@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import LanguageProvider from "./components/LanguageContext";
 
 const spaceGrotesk = Space_Grotesk({
   weight: ["300", "400", "500", "500", "700"],
@@ -10,7 +11,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Web Studio",
-  description: "Innovante's Web Studio",
+  description: "Evolure Web Studio",
   icons: {
     icon: [{ url: "/favicon.png" }],
   },
@@ -23,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.className}`}>{children}</body>
+      <body className={`${spaceGrotesk.className}`}>
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   );
 }
