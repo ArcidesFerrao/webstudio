@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Web Studio",
   description: "Evolure Web Studio",
   icons: {
-    icon: [{ url: "/favicon.png" }],
+    icon: [{ url: "/favicon-w.png" }],
   },
 };
 
