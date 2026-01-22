@@ -1,9 +1,11 @@
 "use client";
 import Image from "next/image";
 import { useLanguage } from "./LanguageContext";
+import { useState } from "react";
 
 export const Projects = () => {
   const { t } = useLanguage();
+  const [viewMore, setViewMore] = useState(false);
 
   return (
     <section
@@ -14,7 +16,7 @@ export const Projects = () => {
         {t("projects_title")}
       </h2>
       <p className="max-w-md text-center">{t("projects_subtitle")}</p>
-      <div className="projects-container flex w-full gap-2 justify-between max-w-4xl">
+      <div className="projects-container flex w-full gap-4 justify-between max-w-4xl">
         <div className="project-card max-w-fit justify-self-center ">
           <Image
             src="/assets/ousadia.png"
@@ -49,25 +51,7 @@ export const Projects = () => {
             <p className="font-extralight text-sm">Design - Frontend</p>
           </div>
         </div>
-        {/* <div className="project-card max-w-fit justify-self-center ">
-          <Image
-            src="/assets/digital.png"
-            alt="picture"
-            width={200}
-            height={270}
-            className="rounded-lg hover:shadow-lg transition-shadow"
-          />
-          <div className="flex flex-col justify-around min-h-24">
-            <a
-              href="https://digital-marketplace-one.vercel.app/"
-              target="blank"
-            >
-              <h3 className="text-xl font-medium">Marketplace</h3>
-            </a>
-            <p className="">Digital Marketplace</p>
-            <p className="font-extralight text-sm">Frontend - Backend</p>
-          </div>
-        </div> */}
+
         <div className="project-card max-w-fit justify-self-center ">
           <Image
             src="/assets/contela.png"
@@ -85,6 +69,38 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      {viewMore && (
+        <div className="projects-container flex w-full gap-4 justify-between max-w-4xl">
+          <div className="project-card max-w-fit justify-self-center ">
+            <Image
+              src="/assets/digital.png"
+              alt="picture"
+              width={200}
+              height={270}
+              className="rounded-lg hover:shadow-lg transition-shadow"
+            />
+            <div className="flex flex-col justify-around min-h-24">
+              <a
+                href="https://digital-marketplace-one.vercel.app/"
+                target="blank"
+              >
+                <h3 className="text-xl font-medium">Marketplace</h3>
+              </a>
+              <p className="">Digital Marketplace</p>
+              <p className="font-extralight text-sm">Frontend - Backend</p>
+            </div>
+          </div>
+        </div>
+      )}
+      {viewMore ? (
+        <button className="more-btn" onClick={() => setViewMore(false)}>
+          <span className="lsicon--up-filled"></span>
+        </button>
+      ) : (
+        <button className="more-btn" onClick={() => setViewMore(true)}>
+          ...
+        </button>
+      )}
     </section>
   );
 };
